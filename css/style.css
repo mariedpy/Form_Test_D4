@@ -1,0 +1,39 @@
+
+body{
+  background: #ccc;
+  font-size: 1.5em;
+}
+
+header {
+  background: #000;
+  border-top: 4px solid pink;
+  color: #ffffff;
+  font-size:
+}
+
+section{
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  border-radius: 10px;
+}
+
+*{
+  font-family: 'Spicy Rice', cursive;
+}
+
+h1{
+  font-size: 2em;
+  text-align: center;
+}
+
+#sign-up{
+  background: pink;
+  padding: 2em;
+  border: 0;
+}
+
+fieldset{
+  border-style: dotted;
+}

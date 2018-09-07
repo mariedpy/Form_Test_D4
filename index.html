@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up for the tour</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
+  </head>
+  <body>
+<h1>Formulaire</h1>
+
+    <section id="sign-up">
+
+
+
+<fieldset>
+<legend>Informations</legend>
+  <label for="GET-name">Nom :</label>
+  <input id="GET-name" type="text" name="name">
+    <label for="GET-name">Prénom :</label>
+    <input id="GET-name" type="text" name="name">
+
+<div class="">
+  <label for="GET-name">Addresse :</label>
+  <input id="GET-name" type="text" name="name">
+    <label for="GET-name">Téléphone :</label>
+    <input id="GET-name" type="text" name="name">
+
+</div>
+
+
+<input type="submit" value="Enregistrer">
+
+</fieldset>
+
+
+    <!-- Formulaire avec un fieldset, un legend, et un label -->
+    <form action="" method="post">
+      <fieldset>
+        <legend>Titre</legend>
+        <input type="radio" name="radio" id="radio"> <label for="radio">Je suis seul</label>
+        <input type="radio" name="radio" id="radio"> <label for="radio">Je suis accompagné</label>
+        <input type="radio" name="radio" id="radio"> <label for="radio">Je suis en groupe</label>
+      </fieldset>
+
+    </form>
+
+    <form action="" method="post">
+      <fieldset>
+        <legend>Âge</legend>
+        <input type="checkbox" name="check1" id="check1"> <label for="radio">Je certifie avoir plus de 18ans</label>
+      </fieldset>
+
+    </form>
+
+    <fieldset>
+
+        <legend>Choose trip dates</legend>
+
+        <div>
+            <label for="start">Start</label>
+            <input type="date" id="start" name="trip"
+                   value="2018-07-22"
+                   min="2018-01-01" max="2018-12-31" />
+        </div>
+
+        <div>
+            <label for="end">End</label>
+            <input type="date" id="end" name="trip"
+                   value="2018-07-29"
+                   min="2018-01-01" max="2018-12-31"/ >
+        </div>
+
+    </fieldset>
+</section>
+
+
+  </body>
+</html>
